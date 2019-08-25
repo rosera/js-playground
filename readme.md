@@ -1,5 +1,8 @@
 # Asteroids
 
+![asteroids](https://github.com/rosera/js-playground/blob/master/images/asteroids.png "Asteroids Game image")
+
+
 # Cloud Functions
 TBC
 
