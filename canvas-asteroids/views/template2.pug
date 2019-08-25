@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title Canvas Asteroids
+    link(rel="stylesheet" href="https://storage.cloud.google.com/roselabs-web/asteroids/style.css")
+    script(src="https://storage.cloud.google.com/roselabs-web/asteroids/vec2d.js")
+    script(src="https://storage.cloud.google.com/roselabs-web/asteroids/particle.js")
+    script(src="https://storage.cloud.google.com/roselabs-web/asteroids/bullet.js")
+    script(src="https://storage.cloud.google.com/roselabs-web/asteroids/asteroid.js")
+    script(src="https://storage.cloud.google.com/roselabs-web/asteroids/ship.js")
+    script(src="https://storage.cloud.google.com/roselabs-web/asteroids/pool.js")
+    script(src="https://storage.cloud.google.com/roselabs-web/asteroids/canvas-asteroids.js")
+  body
+    div#info
+      h1 Canvas Asteroids:
+      p Use [A][S][W][D] or [&larr;][&uarr;][&darr;][&rarr;] to Move
+      p Use [K] or [Space] to SHOOT
+
+    canvas(id="canvas" tabindex="0")
